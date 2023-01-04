@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IASIP Random Episode Generator</title>
+</head>
+<body>
+    <h1>Welcome to the IASIP Random Episode Generator!</h1>
+    <h2>With the click of a button, we select an episode for you to watch.</h2>
+    <br><br><br>
+    <h3>Try it out:</h3>
+
+    <br><br><br><br><br>
+
+    <div id="selector">
+        <fieldset>
+        <label>Season:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="season" type="text" size="50" disabled="disabled">
+        <br><br>
+        <label>Episode:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="episode" type="text" size="50" disabled="disabled">
+        <br><br>
+        <label >Title:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="title" type="text" size="50" disabled="disabled">
+        <br><br>
+        <label id="descLabel">Description:</label>
+        &nbsp;<textarea id="desc" size="50" disabled="disabled"></textarea>
+        <br><br>
+        <button id="butt">Generate!</button>
+        </fieldset>
+    </div>
+
+    <script src="episode.js"></script>
+</body>
+</html>
