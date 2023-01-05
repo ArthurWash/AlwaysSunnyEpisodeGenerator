@@ -32,9 +32,29 @@ var S2E8 = [2, 8, "The Gang Runs for Office", "After realizing political corrupt
 var S2E9 = [2, 9, "Charlie Goes America All Over Everybody's Ass", "Outraged when Dennis smokes in the bar, Charlie teams with Dee to start an anti-smoking rally. Meanwhile, Mac, Dennis, and Frank turn Paddy's Pub into an \"anything goes\" bar, which goes horribly wrong thanks to the new clientele: heroin addicts, Vietnamese gamblers, and incestuous McPoyle siblings."];
 var S2E10 = [2, 10, "Dennis and Dee Get a New Dad", "Dennis and Dee discover the MySpace page of a man who claims to be their real father. Meanwhile, Mac and Charlie visit Mac's convict father in jail, and Charlie thinks Frank might be his real father."];
 
+/* Season 3 Episodes */
+var S3E1 = [3, 1, "The Gang Finds a Dumpster Baby", "Dee and Mac find an abandoned baby boy in a dumpster and try to look after (and make money off) him; Frank and Charlie get into dumpster-diving; Charlie is still trying to find out if Frank is his real father; and Dennis tricks an environmentalist into chaining himself to a tree to save it from being cut."];
+var S3E2 = [3, 2, "The Gang Gets Invincible", "When the Philadelphia Eagles hold open tryouts à la the movie Invincible, Mac, Dennis, and Dee make the event their own personal competition; Frank and Charlie go to a tailgate party, where Frank trips on LSD and make things worse between them and the McPoyle family from \"Charlie Got Molested\" and \"Charlie Goes America All Over Everybody's Ass.\""];
+var S3E3 = [3, 3, "Dennis and Dee's Mom Is Dead", "Frank's ex-wife Barbara dies (for real this time), leaving behind a big inheritance that Frank and Dee will do anything to get; Mac, Dennis, and Charlie use Barbara's house as a men's club to make new male friends (\"nothing sexual\")."];
+var S3E4 = [3, 4, "The Gang Gets Held Hostage", "The McPoyles hold the Gang hostage in Paddy's Pub; Frank crawls through the vents (a la Die Hard) to find his will, which Charlie hid."];
+var S3E5 = [3, 5, "The Aluminum Monster vs. Fatty Magoo", "The Gang gets involved in the fashion-design world when Dee gets jealous of her high-school best friend (Judy Greer), who is now a successful boutique owner. Meanwhile, Frank restarts his old sweatshop business and coaches Mac on how to run one."];
+var S3E6 = [3, 6, "The Gang Solves the North Korea Situation", "The Gang is at odds with a more-successful Korean pub owner who bears a striking resemblance to former North Korean dictator Kim Jong-Il; Charlie becomes involved with the owner's daughter (Tania Gunadi)."];
+var S3E7 = [3, 7, "The Gang Sells Out", "When a restaurant chain offers to buy Paddy's Pub, the guys try to make the deal go through by showing the rep a good time; when Dee discovers she won't benefit from the deal, she quits her job at Paddy's (again) and pressures The Waitress to get her a job at a TGIFriday's-style restaurant."];
+var S3E8 = [3, 8, "Frank Sets Sweet Dee on Fire", "The gang tries to become local celebrities by creating their own public-access news show and making it big on the hip club scene."];
+var S3E9 = [3, 9, "Sweet Dee's Dating a Retarded Person", "Dennis tells Dee that her new amateur-rapper boyfriend is mentally disabled; Frank, Charlie, and Mac start their own band but can't decide what type of music to play, especially when Charlie pens a disturbing song about being sexually molested by a strange creature called The Night Man."];
+var S3E10 = [3, 10, "Mac Is a Serial Killer", "Half of the Gang suspects that Mac might be the serial killer who's been terrorizing young women, especially when they notice how distant he's become; the other half tries to catch the serial killer themselves; meanwhile, Mac himself renews his relationship with Carmen (Brittany Daniel), the transgender woman from \"Charlie Has Cancer\"."];
+var S3E11 = [3, 11, "Dennis Looks Like a Registered Sex Offender", "Dennis' life goes downhill when the community mistakes him for a convicted child molester released from prison because of overcrowding; Mac and Charlie reunite with Luther (Mac's convict father) and freak out when they think Luther is murdering the people who put him in prison."];
+var S3E12 = [3, 12, "The Gang Gets Whacked (Part 1)", "When The Gang finds cocaine in a pair of speakers, they decide to sell it, only to learn that the cocaine belonged to some local mobsters who want it back. To pay off the debt, they buy more drugs and try to sell them at the country club."];
+var S3E13 = [3, 13, "The Gang Gets Whacked (Part 2)", "The Gang must find a way to avoid getting \"whacked off\" when their plans to pay off mob members for missing cocaine go wrong: Frank pimps out Dennis to older women; Mac tries to do gruntwork for the mob; and Charlie and Dee stick to the plan to sell drugs but use them all themselves."];
+var S3E14 = [3, 14, "Bums: Making a Mess All Over the City", "Mac and Dee become vigilantes to solve the homeless problem. Meanwhile, after buying a junkyard police car to scare the homeless away from the bar, Frank and Dennis dress in police costumes and abuse the public while Charlie dresses as Serpico and tries to expose them."];
+var S3E15 = [3, 15, "The Gang Dances Their Asses Off", "Charlie inadvertently puts Paddy's Pub up as the grand prize in a radio dance marathon (in Mac's words to Charlie: \"Your illiteracy has screwed us again\"), so the gang must win the competition—against the enemies they've made so far in the series—to keep the bar."];
+
+
 // Generate Episode
 var wholeSeries = [S1E1, S1E2, S1E3, S1E4, S1E5, S1E6, 
-S2E1, S2E2, S2E3, S2E3, S2E4, S2E5, S2E6, S2E7, S2E8, S2E9, S2E10];
+S2E1, S2E2, S2E3, S2E4, S2E5, S2E6, S2E7, S2E8, S2E9, S2E10,
+S3E1, S3E2, S3E3, S3E4, S3E5, S3E6, S3E7, S3E8, S3E9, S3E10, S3E11, S3E12, S3E13, S3E14, S3E15
+];
 var result = getRandomEpisode(wholeSeries);
 
 document.getElementById("season").value = result[0];
