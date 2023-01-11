@@ -8,8 +8,9 @@ document.getElementById("butt").onclick=function(){
     // Get a random episode
     const episode = episodes[Math.floor(Math.random() * episodes.length)];
 
+    // Display data
     document.getElementById("season").value = episode.season;
     document.getElementById("episode").value = episode.number;
     document.getElementById("title").value = episode.name;
-    document.getElementById("desc").value = episode.summary;
+    document.getElementById("desc").value = episode.summary.replace(/(<([^>]+)>)/ig, '');
 }
