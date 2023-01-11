@@ -10,5 +10,12 @@ season, episode, title, and description.
 
 The background image used is owned by FX and It's Always Sunny In Philadelphia.
 
-# Version 1
+# Version 1.0
 The first version has my web app working properly. I only added seasons one and two to have data to work with. I will be updating with each season as I add them (it takes time and is very tedious!)
+
+# Version 2.0
+In version 2.0, I decided to change course and access the episode data from an API instead of entering it manually. This future proofs the webapp, as when new episodes release the API will automatically update the data for me. 
+
+Special thanks to tvmaze.com/api for making this data public and easy to use!
+
+Lastly, I do not own IASIP. It along with the background image used are owned by FXX.
