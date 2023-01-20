@@ -17,6 +17,8 @@ body{
     font-family: 'Raspoutine DemiBold', sans-serif;
 }
 
+h1, h2, h3 {text-shadow: 2px 2px black;}
+
 .info{display: none;}
 
 #selector{
