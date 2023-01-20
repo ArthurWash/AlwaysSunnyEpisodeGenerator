@@ -19,3 +19,6 @@ In version 2.0, I decided to change course and access the episode data from an A
 Special thanks to tvmaze.com/api for making this data public and easy to use!
 
 Lastly, I do not own IASIP. It along with the background image used are owned by FXX.
+
+# Version 2.1
+Fixes a font error, where the font intended was not loading properly. 
