@@ -1,4 +1,9 @@
-@import url('https://fonts.cdnfonts.com/css/raspoutine');
+@font-face {
+    font-family: 'Raspoutine DemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raspoutine DemiBold'), url('RaspoutineDemiBold_TB.woff') format('woff');
+    }
 
 body{
     background-color: black;
